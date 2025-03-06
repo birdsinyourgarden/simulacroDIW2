@@ -1,0 +1,3 @@
+## Ejercicio 2
+
+Se pide que crees una página web con una barra lateral izquierda (side bar) que debe usarse para contener un menu, y una parte derecha para el contenido de la página. Toda la maquetación de be hacerse con flex. El menu se contruirá con una lista desordenada <ul></ul>, y los items deben llevar un borde inferior de 1px solido y gris. Colores y tipos de letra pueden ser los de la imagen, o similares con el objeto de que se dirferencien los bloques.

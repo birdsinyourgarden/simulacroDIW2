@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro en la Escuela</title>
+  <link rel="stylesheet" href="solucion3-1.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <form action="#" method="post">
+      
+      <!-- Fila para el número de matrícula -->
+      <div class="form-row">
+        <label for="matricula">Número de matrícula:</label>
+        <input type="text" id="matricula" name="matricula" pattern="M\d{3}" required placeholder="Matrícula">
+      </div>
+      
+      <!-- Título para la sección de materias -->
+      <div class="materias-title">
+        <p>Materias</p>
+      </div>
+      
+      <!-- Fila para cada materia con su checkbox (alineados verticalmente) -->
+      <div class="materias-container">
+        <div class="materia-row">
+          <label for="matematicas">Matemáticas</label>
+          <input type="checkbox" id="matematicas" name="materias" value="Matematicas">
+        </div>
+        
+        <div class="materia-row">
+          <label for="algoritmia">Algoritmia</label>
+          <input type="checkbox" id="algoritmia" name="materias" value="Algoritmia">
+        </div>
+        
+        <div class="materia-row">
+          <label for="sistemas">Sistemas</label>
+          <input type="checkbox" id="sistemas" name="materias" value="Sistemas">
+        </div>
+        
+        <div class="materia-row">
+          <label for="robotica">Robótica</label>
+          <input type="checkbox" id="robotica" name="materias" value="Robotica">
+        </div>
+      </div>
+
+      <!-- Botón de enviar -->
+      <div class="form-row">
+        <button type="submit">Enviar</button>
+      </div>
+
+    </form>
+  </div>
+
+</body>
+</html>
+
+
+
+

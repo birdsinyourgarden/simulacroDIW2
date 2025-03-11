@@ -1,0 +1,138 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contenedor */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #f0e6f6;
+    padding: 50px 0;
+    border-radius: 8px;
+}
+
+.name {
+    font-size: 36px;
+    color: #6a4c93;
+}
+
+.profession {
+    font-size: 18px;
+    color: #a1a1a1;
+}
+
+/* Secciones */
+.section {
+    margin: 50px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #6a4c93;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-description, .job-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.info-list, .education-list, .skills-list {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.info-list li, .education-list li, .skills-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: 600;
+    color: #6a4c93;
+}
+
+/* Experiencia laboral */
+.experience {
+    margin-bottom: 40px;
+}
+
+.job-title {
+    font-size: 22px;
+    color: #6a4c93;
+}
+
+.job-period {
+    font-size: 16px;
+    color: #a1a1a1;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #f0e6f6;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #6a4c93;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .profession {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-description, .job-description {
+        font-size: 14px;
+    }
+
+    .info-list li, .education-list li, .skills-list li {
+        font-size: 14px;
+    }
+
+    .job-title {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+

@@ -1,4 +1,39 @@
- 
+.materias-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .materia-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .materia-row label {
+    width: 150px; 
+    text-align: left; 
+  }
+  
+  .materia-row input[type="checkbox"] {
+    margin-left: 10px; 
+  }
+
+button {
+    padding: 10px 20px;
+    color: black; 
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto; 
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #c0c0c0; 
+  }
+  
+  
+
+  
    
   
   
